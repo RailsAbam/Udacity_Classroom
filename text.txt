@@ -1,0 +1,92 @@
+Jargon Busting
+Here are the terms introduced in this chapter:
+• Argument: This is a value you pass to a function or to a procedure, so it has some
+data to work with.
+• Assignment: This is the operation of setting a variable to a value.
+• Delimiter: This punctuation mark is typically used to separate a text string or other
+piece of data from surrounding characters.
+• Escape: This is a method of indicating that the next character in a text string
+should be processed in a different way.
+• Function: A function is a block of code that performs a calculation, accepts zero or
+more arguments, and returns a value to the calling procedure when it is complete.
+• Indentation: This refers to the use of spaces and tabs at the start of a line of code or
+text; except you want to use spaces rather than tabs, remember?
+• Identifier: This is a user-defined name; both function names and variable names
+are identifiers. Identifiers must not conflict with keywords.
+• Initialization: This process sets the initial value of a variable. Initialization is done
+only once for each variable, when that variable is created.
+• Module: A module is a Python program that can be imported by another program.
+Modules are often used to define additional functions and classes.
+• Nesting: Put one piece of code inside another similar construct.
+• Nonfunctional requirements: These are needs or limitations of the software that
+are not specifically about what the software will do.
+• Program implementation: This is the actual realization of the program, as opposed
+to the design.
+• Prompt: This string of text or punctuation marks indicates that the user needs to
+input some information or commands.
+
+
+octal_number = 0o12
+hexadecimal_number = 0xFC6
+ print(octal_number)
+10
+ print(hexadecimal_number)
+4038
+
+Jargon Busting
+You encountered a lot of new terms in this chapter, so here are some more useful definitions:
+• Binary (base 2): Binary arithmetic uses the digits 0 and 1. This corresponds to the
+electric current in a wire, which can only be on (value 1) or off (value 0)
+• Bit: A bit is a digit in the binary number system. It can have two values, 0 or 1. The
+word is derived from binary digit.
+• Boolean: Variables of this type can take only one of two values, True and False.
+These correspond to 1 and 0. This is the most appropriate return type for a
+function that uses its return value to report whether some condition holds or not.
+• Built-in: Anything built-in is innate part of the programming language, as
+opposed to something that has to be imported from a module. A built-in element
+is part of Python’s standard library.
+• Byte: A byte is the smallest unit of storage that can be accessed in a computer’s
+memory. It holds exactly 8 bits.
+• Case-sensitive: In case-sensitive text, uppercase letters are treated as completely
+different characters from their lowercase counterparts. Treating uppercase and
+lowercase variants as the same character is known as case-insensitive.
+• Characters: These are letters, digits, punctuation marks, and spaces—basically
+anything that can be typed in using a single key on the keyboard, even if it doesn't
+cause anything to be printed on the screen.
+• Concatenate: When you create a string by joining together copies of two or more
+text strings without any spaces in between, you concatenate the string.
+• Decimal (base 10): Decimal numbers are what you probably think of as normal
+numbers.
+• Dynamic typing: Python determines the type and checks the correct usage of
+variables of different types during execution of a program rather than during
+compilation. Some other programming languages, like C, are statically typed: the
+compiler will not allow the use of a variable or function unless that function or
+variable has already been initialized and declared to be of a certain type. You don’t
+
+• Expression: This refers to a section of code that can be worked out to produce a
+value.
+• Flag: A flag is a Boolean variable used to record whether or not something has
+happened.
+• Float: Float is short for “floating point” and is a fundamental type used to define
+numbers with fractional parts.
+• Hexadecimal (base 16): Hexadecimal is base 16 arithmetic where each digit is a
+value from 0 to 15, rather than the 0 to 9 of base 10. The decimal numbers from 10
+to 15 are represented by the letters A to F. Hexadecimal is a very convenient way of
+showing binary numbers, as every four binary digits can be shown as one
+hexadecimal digit.
+• Integer: An integer is a fundamental (i.e., built-in) type used to define numeric
+variables holding whole numbers.
+• Immutable: An immutable value cannot be modified.
+• Logical operator: These commands perform basic manipulations on Boolean
+values.
+• Mapping: In Python, a mapping is a data type that relates a set of keys to a set of
+values. It has nothing to do with planning your car journey.
+• Octal (base 8): In octal arithmetic, each digit has a value of 0 to 7.
+• Operator: These are commands, often represented by mathematical symbols, that
+perform simple manipulations on data, known as operands. Expressions take the
+following form: operand1 operation operand2.
+• Operator precedence: This is the order in which operators are assigned their
+arguments when Python evaluates an expression. Where there is ambiguity, the
+operator with the higher precedence is assigned as arguments the smallest
+expressions on either side of it that make sense.
+• Sequence: In Python, a sequence is an instance of a data type that consists of more
