@@ -89,3 +89,31 @@ count1 = x.index(2) #Return the index the element falls
 print(count1)
 
 
+s = set({3,2,9,4,6,1,8})
+#s.clear() #clearing element in a set
+another_set = s.copy()
+print(s)
+print(another_set)
+
+
+
+#Can use strings in a set
+set_1 = set({"time", "second", "minutes"})
+print(set_1)
+
+#checks the differences in each set
+str3 = ({10,15,20,25})
+str4 = ({10,15, 20, 30})
+check = str3.difference(str4)
+check_1 = str4.difference(str3)
+print(check,check_1)
+
+#intersection
+str3 = ({10,15,20,25})
+str4 = ({10,15, 20, 30})
+check = str3.intersection(str4)
+check_1 = str4.intersection(str3)
+print(check_1,check)
+
+
+#
