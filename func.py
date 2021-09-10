@@ -51,3 +51,30 @@ data = dict(a = 2 , b = 4, c = 5)
 print(sum_all(** data))
 
 
+def test():
+    x  = 3
+    return x
+    name = "rails"
+
+name = "tim"
+print(test())
+#print(globals())
+
+tag = 0 #Needs to dig more on this
+def till():
+    global tag
+    tag += 2
+print(till())
+
+
+#nested Functions and calls
+
+def caller_1 (a):
+    def caller_2(b):
+        def caller_3(c):
+            return  a + b 
+        return caller_3
+    print(caller_2(3))
+print(caller_1(5))
+
+
