@@ -18,3 +18,36 @@ def add(a = 5, b = 20):
 print(add(10, 25)) # This overwrite  the first argument  
 
 
+def times( * args, b = 10): #This offers opportunity for more arguments
+  return args
+
+print(times([2 + 3 + 5 + 5]))
+
+
+def trail ( t1 ,t2 , t3 ,t4):
+    return  t1 + t2 + t3 + t4
+print(trail(*[10, 20, 30 , 40 ]))
+
+def line(t,i,m,e):
+    return t + i + m * e
+nums = [ 5, 5 , 5, 2]
+num1 = {2,2,2,4}
+num2 = (4, 4,4 ,5)
+print(line(*nums)) #unpacking a value
+print(line(2, 2 , 2 ,4)) # * args  does work in a set
+print(line(*num2))
+
+
+#Function with unknown number of arguments
+def select(** kwargs):
+    return (kwargs)
+print(select(b = 10, name = "ruby", t5 = 5 + 3))
+
+#Unpackingthe value 
+def sum_all( a, b , c):
+    return (a + b * c)
+
+data = dict(a = 2 , b = 4, c = 5)
+print(sum_all(** data))
+
+
