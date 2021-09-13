@@ -32,8 +32,10 @@ print(two_dict)
 #Counter
 num = [1,2,1, 3, 2, 3, 4,2, 4, 1, 5, 4,5, 6, 5, 6,4,7, 8,7,6]
 sum_1 = Counter(num) #This count how many times each value appears
-ele = list(sum_1.elements())
-print(ele)
+element = list(sum_1.elements()) #This return elements in the list in how many they appear
+element_1 = sum_1.most_common()
+print(element)
+print(element_1)
 print(sum_1)
 
 
