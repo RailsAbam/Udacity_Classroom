@@ -29,4 +29,11 @@ two_dict = ChainMap(dict1, dict2) #This Joint the two Dictionary
 print(two_dict)
 
 
+#Counter
+num = [1,2,1, 3, 2, 3, 4,2, 4, 1, 5, 4,5, 6, 5, 6,4,7, 8,7,6]
+sum_1 = Counter(num) #This count how many times each value appears
+ele = list(sum_1.elements())
+print(ele)
+print(sum_1)
+
 
