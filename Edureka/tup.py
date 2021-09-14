@@ -43,3 +43,9 @@ print(element_1)
 print(sum_1)
 
 #Order Dictionary
+new_name = OrderedDict()
+new_name[1] = 'r'
+new_name[2] = 'a'
+new_name[3] = 'i'
+new_name[4] = 'l'
+print(new_name)
