@@ -48,4 +48,6 @@ new_name[1] = 'r'
 new_name[2] = 'a'
 new_name[3] = 'i'
 new_name[4] = 'l'
+key = new_name.keys()
+print(key)
 print(new_name)
