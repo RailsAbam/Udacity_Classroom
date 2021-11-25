@@ -43,6 +43,12 @@ def select(** kwargs):
     return (kwargs)
 print(select(b = 10, name = "ruby", t5 = 5 + 3))
 
+
+
+
+
+
+
 #Unpackingthe value 
 def sum_all( a, b , c):
     return (a + b * c)
